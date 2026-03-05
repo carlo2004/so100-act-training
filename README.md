@@ -46,9 +46,9 @@ Train an [ACT](https://tonyzhaozh.github.io/aloha/) (Action Chunking with Transf
 Edit these variables in `train.py` (Cell 3):
 
 ```python
-DATASET_REPO_ID  = "your-hf-user/your-dataset"   # your HF dataset
+DATASET_REPO_ID  = "your-hf-user/your-dataset"     # your HF dataset
 CLEAN_EPISODES   = list(range(0, 60))              # episodes to train on
-CORRUPT_EPISODES = [60, 61, 62]                     # episodes to skip
+CORRUPT_EPISODES = [60, 61, 62]                    # episodes to skip
 ```
 
 Edit these in Cell 7 (upload):
