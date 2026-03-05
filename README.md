@@ -6,8 +6,8 @@ Train an [ACT](https://tonyzhaozh.github.io/aloha/) (Action Chunking with Transf
 
 ```
 ┌─────────────────┐      ┌──────────────┐      ┌─────────────────┐
-│  Collect data    │ ──>  │  Train on     │ ──>  │  Run inference   │
-│  (SO-100 + cams) │      │  Google Colab │      │  (local machine) │
+│  Collect data   │ ──>  │  Train on    │ ──>  │  Run inference  │
+│  (SO-100 + cams)│      │  Google Colab│      │  (local machine)│
 └─────────────────┘      └──────────────┘      └─────────────────┘
 ```
 
